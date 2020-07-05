@@ -566,7 +566,7 @@ static AppController *singleton;
 }
 
 - (IBAction)openMacSwordWikiPage:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.crosswire.org/wiki/Frontends:MacSword"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://wiki.crosswire.org/Frontends:Eloquent"]];
 }
 
 - (IBAction)openMacSwordHomePage:(id)sender {
